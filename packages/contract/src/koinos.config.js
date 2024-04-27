@@ -22,7 +22,7 @@ function keysHarbinger(index) {
 
 module.exports = {
   class: "ManaMeter",
-  proto: ["./proto/manameter.proto"],
+  proto: ["./proto/empty.proto"],
   files: ["./ManaMeter.ts"],
   supportAbi1: true,
   sourceDir: "./assembly",
